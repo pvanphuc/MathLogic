@@ -44,6 +44,62 @@ Cho X là một số nguyên dương viết trong hệ thập phân, Y là tổn
 
 \(E\) nhiều hơn 3
 
+**Gỉai:**
+
+$$X$$ không thể là số có 3 chữ số vì nếu thế tổng: $$X+Y+Z>60$$
+
+$$X$$ không thể là số có 1 chữ số vì nếu thế tổng: $$X+Y+Z \leq 9+9+9 = 27$$
+
+Vậy $$X$$ chỉ có thể là số 2 chữ số gọi nó là $$\bar{ab}$$ 
+
+ $$a,b$$ là số 1 chữ số $$a$$ khác 0. Ta có:
+
+$$X=\bar{ab}$$
+
+$$Y=a+b$$
+
+$$Z$$ có 2 trường hợp
+
+* $$a+b<10$$ thì $$Z=a+b$$
+* $$a+b \geqslant 10$$ thì $$Z = 1+(a+b)-10=a+b-9$$   
+  \($$a+b \leq 9+9 =18$$ nên chữ số hàng chục là 1 hàng đơn vi là $$(a+b)-10$$\)
+
+Trường hợp $$Z=a+b$$
+
+$$X+Y+X=60$$
+
+$$\Rightarrow  \bar{ab} + (a+b) +(a+b) =60$$
+
+$$\Rightarrow 12a+3b=60$$
+
+$$\Rightarrow 4a+b=20$$
+
+$$\Rightarrow 4a \leq 20$$ nên a có thể là 1,2,3,4,5
+
+* $$a=5, b =0$$  tương ứng với $$50+5+5=60$$ thoả mãn đề bài.
+* $$a=4, b=4$$ tương ứng với $$44+8+8 = 60$$ thoả mãn đề bài.
+* $$a=3, b=8$$ tổng lớn hơn 10 loại tương tự loại $$a=1; a=2$$
+
+Trường hợp $$Z=a+b-9$$
+
+$$X+Y+X=60$$
+
+$$\Rightarrow  \bar{ab} + (a+b) +(a+b-9) =60$$
+
+$$\Rightarrow 4a+b=23$$
+
+$$\Rightarrow 4a <23$$ nên a có thể là 1,2,3,4,5
+
+Thử tương tự trên chỉ có 
+
+$$a=4,b=7$$ tương ứng $$47+11+2=60$$ thoả mãn.
+
+Vậy có 3 trường hợp thoả mãn đề bài.
+
+Đáp án D
+
+---
+
 **Câu hỏi 8:**
 
 Tiền thuê chỗ đậu xe trong gara là 10 đô la 1 tuần hoặc 30 đô la 1 tháng. Một người có thế tiết kiệm được bao nhiêu tiền trong 1 năm nếu thuê theo tháng ?\(Giả sử 1 năm = 52 tuần\)
